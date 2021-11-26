@@ -15,6 +15,12 @@ I've created a list of products I would like to attempt to purhcase. The list co
 The bot will iterate through the list in order of priority and search for the product by the name and keywords entered. It will be able to match substrings of the product if you do not know the entire name. You can input any number of sizes and colors and it will select the first available one, again in priority by the order in the list. If you set the parameter any_color to True, if the bot is not able to find the desired colors you have denoted, it will select the first one it finds
 
 SupremeFunctions.py: Functions to purchase the product and fill billing information
+
+
 getLink.py: Functions to retrieve the link of the product
+
+
 productClass.py: Class of the Product object, as well as the Card object, and Buyer object
+
+
 SupremeMain.py: Purchases product
